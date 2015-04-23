@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+    <head>
+    	<meta charset="utf-8">
+        <title>Video Samples: HTML5 Heartbeat Sample</title>
+
+        <link rel="stylesheet" href="styles/base.css" />
+       
+        <script src="lib/ext/adobe/VisitorAPI.js"></script>
+        <script src="lib/ext/adobe/AppMeasurement.js"></script>
+        <script src="lib/ext/heartbeat/VideoHeartbeat.js"></script>
+        <script src="lib/ext/adobe/AdobeAnalyticsPlugin.js"></script>
+<!--
+        <script src="script/app/default.comm.center.js"></script>
+        <script src="script/app/configuration.js"></script>
+        <script src="script/app/player/video.player.js"></script>
+        <script src="script/app/analytics/video.player.delegate.js"></script>
+        <script src="script/app/analytics/video.analytics.provider.js"></script>
+-->
+        <script src="lib/psd/main.js"></script>
+
+    </head>
+
+    <body>
+
+    <h2>Heartbeat HTML5 Sample Player</h2>
+
+    <div class="container">
+        <video id="movie" width="600" preload controls>
+            <source src="http://media.w3.org/2010/05/bunny/trailer.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="http://media.w3.org/2010/05/sintel/trailer.webm" type='video/webm; codecs="vp8, vorbis"'>
+        </video>
+
+        <div class="overlay" id="pubLabel" hidden="false">P</div>
+    </div>
+
+    
+    </body>
+</html>
